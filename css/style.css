@@ -18,8 +18,8 @@ html {
   scroll-behavior: smooth;
 }
 body{
-    margin:0;
-    padding:60px 0 0;
+    margin: 0;
+    padding: 0;
     font-family: var(--font-family);
     font-size: var(--font-size);
     color: var(--dark-gray);
@@ -67,7 +67,9 @@ h3{
   margin: 0 auto;
   padding: 0 20px;
 }
-
+main{
+    padding-top: 60px;
+}
 header{
     background: var(--primary-orange);
     color: var(--white);
@@ -303,7 +305,7 @@ form input, form textarea{
 
 @media (max-width:768px){
 
-body{
+main{
     padding-top:70px;
 }
 
@@ -353,7 +355,7 @@ nav ul{
 :root{
     --font-size:16px;
 }
-body{padding-top: 50px;}
+main{padding-top: 50px;}
 header{height:50px;}
 h1,h2{
     font-size:26px;
